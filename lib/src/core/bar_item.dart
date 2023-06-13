@@ -57,11 +57,7 @@ class _SideNavigationBarItemWidgetState
       child: widget.expanded
           ? ListTile(
               tileColor: _evaluateBackgroundColor(isSelected),
-              leading: Icon(
-                widget.itemData.icon,
-                color: currentColor,
-                size: widget.itemTheme.iconSize,
-              ),
+              leading: widget.itemData.icon,
               title: Text(
                 widget.itemData.label,
                 style: _evaluateTextStyle(currentColor),
@@ -78,11 +74,7 @@ class _SideNavigationBarItemWidgetState
                   shape: widget.itemTheme.iconShape,
                 ),
                 child: IconButton(
-                  icon: Icon(
-                    widget.itemData.icon,
-                    color: currentColor,
-                    size: widget.itemTheme.iconSize,
-                  ),
+                  icon:widget.itemData.icon,
                   onPressed: () {
                     widget.onTap(widget.index);
                   },

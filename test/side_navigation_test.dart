@@ -27,8 +27,8 @@ void main() {
                     selectedIndex: selectedIndex,
                     items: <SideNavigationBarItem>[
                       SideNavigationBarItem(
-                          icon: Icons.dashboard, label: startText),
-                      SideNavigationBarItem(icon: Icons.person, label: endText)
+                          icon: Icon(Icons.dashboard), label: startText),
+                      SideNavigationBarItem(icon: Icon(Icons.person), label: endText)
                     ],
                     onTap: (newIndex) {
                       setState(() {
@@ -79,8 +79,8 @@ void main() {
                     selectedIndex: selectedIndex,
                     items: const <SideNavigationBarItem>[
                       SideNavigationBarItem(
-                          icon: Icons.dashboard, label: 'Dashboard'),
-                      SideNavigationBarItem(icon: Icons.person, label: 'Person')
+                          icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                      SideNavigationBarItem(icon: Icon(Icons.person), label: 'Person')
                     ],
                     onTap: (newIndex) {
                       setState(() {
@@ -131,8 +131,8 @@ void main() {
                     selectedIndex: selectedIndex,
                     items: const <SideNavigationBarItem>[
                       SideNavigationBarItem(
-                          icon: Icons.dashboard, label: 'Dashboard'),
-                      SideNavigationBarItem(icon: Icons.person, label: 'Person')
+                          icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                      SideNavigationBarItem(icon: Icon(Icons.person), label: 'Person')
                     ],
                     onTap: (newIndex) {
                       setState(() {
@@ -177,8 +177,8 @@ void main() {
                     selectedIndex: selectedIndex,
                     items: <SideNavigationBarItem>[
                       SideNavigationBarItem(
-                          icon: Icons.dashboard, label: startText),
-                      SideNavigationBarItem(icon: Icons.person, label: endText)
+                          icon: Icon(Icons.dashboard), label: startText),
+                      SideNavigationBarItem(icon: Icon(Icons.person), label: endText)
                     ],
                     onTap: (newIndex) {
                       setState(() {
@@ -228,8 +228,8 @@ void main() {
                     selectedIndex: selectedIndex,
                     items: <SideNavigationBarItem>[
                       SideNavigationBarItem(
-                          icon: Icons.dashboard, label: startText),
-                      SideNavigationBarItem(icon: Icons.person, label: endText)
+                          icon: Icon(Icons.dashboard), label: startText),
+                      SideNavigationBarItem(icon: Icon(Icons.person), label: endText)
                     ],
                     onTap: (newIndex) {
                       setState(() {
@@ -280,8 +280,8 @@ void main() {
                   selectedIndex: selectedIndex,
                   items: const <SideNavigationBarItem>[
                     SideNavigationBarItem(
-                        icon: Icons.dashboard, label: 'Dashboard'),
-                    SideNavigationBarItem(icon: Icons.person, label: 'Profile')
+                        icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                    SideNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
                   ],
                   onTap: (newIndex) {
                     setState(() {
@@ -334,8 +334,8 @@ void main() {
                   selectedIndex: selectedIndex,
                   items: const <SideNavigationBarItem>[
                     SideNavigationBarItem(
-                        icon: Icons.dashboard, label: 'Dashboard'),
-                    SideNavigationBarItem(icon: Icons.person, label: 'Profile')
+                        icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                    SideNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
                   ],
                   onTap: (newIndex) {
                     setState(() {
@@ -425,8 +425,8 @@ void main() {
                   selectedIndex: selectedIndex,
                   items: const <SideNavigationBarItem>[
                     SideNavigationBarItem(
-                        icon: Icons.dashboard, label: 'Dashboard'),
-                    SideNavigationBarItem(icon: Icons.person, label: 'Profile')
+                        icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                    SideNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
                   ],
                   onTap: (newIndex) {
                     setState(() {
@@ -489,8 +489,8 @@ void main() {
                   selectedIndex: selectedIndex,
                   items: const <SideNavigationBarItem>[
                     SideNavigationBarItem(
-                        icon: Icons.dashboard, label: 'Dashboard'),
-                    SideNavigationBarItem(icon: Icons.person, label: 'Profile')
+                        icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                    SideNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
                   ],
                   onTap: (newIndex) {
                     setState(() {
@@ -548,8 +548,8 @@ void main() {
                   selectedIndex: selectedIndex,
                   items: const <SideNavigationBarItem>[
                     SideNavigationBarItem(
-                        icon: Icons.dashboard, label: 'Dashboard'),
-                    SideNavigationBarItem(icon: Icons.person, label: 'Profile')
+                        icon: Icon(Icons.dashboard), label: 'Dashboard'),
+                    SideNavigationBarItem(icon: Icon(Icons.person), label: 'Profile')
                   ],
                   onTap: (newIndex) {
                     setState(() {

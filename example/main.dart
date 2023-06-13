@@ -51,15 +51,15 @@ class _MainViewState extends State<MainView> {
             selectedIndex: selectedIndex,
             items: const [
               SideNavigationBarItem(
-                icon: Icons.dashboard,
+                icon: Icon(Icons.dashboard),
                 label: 'Dashboard',
               ),
               SideNavigationBarItem(
-                icon: Icons.person,
+                icon: Icon(Icons.person),
                 label: 'Account',
               ),
               SideNavigationBarItem(
-                icon: Icons.settings,
+                icon: Icon(Icons.settings),
                 label: 'Settings',
               ),
             ],
